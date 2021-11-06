@@ -1,0 +1,22 @@
+#su - it is used for switching one user to root
+ls -la it is used to see hiden files
+ls * it is used to show the conents in the directories
+ls -r it shows the conents upto last file
+ls -s total files and directories 
+ls -lh it is used for human readable formate
+ls -lt it is used for time and should be in single page
+ls -ltr the modification will be last
+ls -l/grep it is to search for particular file
+cat it is used to read file
+echo it is used for adding or moddifying the contents
+chmod it will modify the permissions
+chmod u-r it is for removing the read operation on user
+chmod u+r it is used for adding the read operation
+chmod g+x it is used for executing the file in the group
+chmod o+w it is used for wrriting a filein on other group
+touch it is used for adding a file
+ln link file
+chgrp it is used for chnaging group
+echo "hard link and symbolic link" >file it is used for adding the informations
+redirect
+rm * delete file
