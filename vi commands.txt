@@ -1,0 +1,40 @@
+ *to create a file (vi- zebra)it directly enters into the file
+ + inside your vi editor 
+      we have to modes 
+                     1 command mode
+                     2 insert mode
+
+to save your file contents and to exit 
+ESC+:+w+q+enter
+to wanted to quit without saving
+ESC+:+q+!enter
+=>i-take you to insert mode
+=>ESC-trminate your insert mode & will go to command mode
+=>u-undo your last change
+=>u- undo all changes to the entire line
+=>u-undo ur last change
+=>u-undo all changes to the entire line
+=>o-open a new line
+=>dd- delete current linewhere cursor is present
+=>3dd- delete three lines
+=>D-delete contents of line after the cursor
+=>c:delete contents of a line after the cursor and insert new text.press esc key
+to end the insertion
+=>dw-delete a word
+=>4dw-delete four words
+=>cw-change word
+=>x-delete character at the cursor
+=>r-replace charachter
+=>shift+zz- save the file and quit
+=>w-save the file but file will be still open
+=>q-quit without saving
+=>wq-quit after saving
+=>gg- take ur cursor to first charachter of ur file
+=>dG- delete all the lines or text inside the file
+=>/varr-searching for specific word which is often repeated
+
+vi
+vi improved -vim
+vi filename
+vi existing_filename
+
