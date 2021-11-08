@@ -1,0 +1,12 @@
+command mode.................>insert mode to change from command mode to insert mode we will use i
+insert mode..................>command mode to change from insert to command we will use ESC
+chmod using numeric charchter
+NUMBER                        REPRESENTS               STATUS
+ 0                         no permission               ---    
+1                           execute permission        --x
+2                          write permission            -w-
+3                          execute and write           -wx-
+4                          read, permissions             r--
+5                          read,execute                 r-x
+6                          read,write                   r-w
+7                          read write and execute       rwx
