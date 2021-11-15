@@ -1,0 +1,132 @@
+
+
+#!/bin/sh
+#file-poke - tell us stuff about files
+files= 'ls'
+for i in $files
+do
+        echo -n "$i"
+        grep $i $i
+done
+output:
+'3D Objects'                 Music                                                                                         'Saved Games'        linux
+ AppData                    'My Documents'                                                                                  Searches            my-app
+'Application Data'           NTUSER.DAT                                                                                     SendTo              ntuser.dat.LOG1
+ BullseyeCoverageError.txt   NTUSER.DAT{8f52c544-864a-11eb-90cc-8427d912b9c6}.TxR.0.regtrans-ms                            'Start Menu'         ntuser.dat.LOG2
+ Contacts                    NTUSER.DAT{8f52c544-864a-11eb-90cc-8427d912b9c6}.TxR.1.regtrans-ms                             Templates           ntuser.ini
+ Cookies                     NTUSER.DAT{8f52c544-864a-11eb-90cc-8427d912b9c6}.TxR.2.regtrans-ms                             Videos              pgm2.sh
+ Desktop                     NTUSER.DAT{8f52c544-864a-11eb-90cc-8427d912b9c6}.TxR.blf                                       ayesha1             sag
+ Documents                   NTUSER.DAT{8f52c545-864a-11eb-90cc-8427d912b9c6}.TM.blf                                        ayeshu              unix-learning
+ Downloads                   NTUSER.DAT{8f52c545-864a-11eb-90cc-8427d912b9c6}.TMContainer00000000000000000001.regtrans-ms   eclipse             usha
+ Favorites                   NTUSER.DAT{8f52c545-864a-11eb-90cc-8427d912b9c6}.TMContainer00000000000000000002.regtrans-ms   eclipse-workspace   usha.sh
+ IntelGraphicsProfiles       NetHood                                                                                        exmple.java         usha5b2
+ Links                       OneDrive                                                                                       git                 work.sh
+'Local Settings'             PrintHood                                                                                      git_demo
+ MicrosoftEdgeBackups        Recent                                                                                         javap
+program 2:
+#!/bin/sh
+#timestable-print out a multiplication table
+for i in 1 2 3
+do
+        for j in 1 2 3
+        do value='usha'
+                echo -n "$value "
+        done
+        echo
+done
+output:
+usha usha usha
+usha usha usha
+usha usha usha
+program 3:
+#!/bin/sh
+#file-poke - tell us stuff about files
+for i in *; do
+        echo -n "$i"
+        grep $i $i
+done
+output:
+3D Objectsgrep: Objects: No such file or directory
+grep: 3D: No such file or directory
+grep: Objects: No such file or directory
+AppDatagrep: AppData: Is a directory
+Application Datagrep: Data: No such file or directory
+grep: Application: No such file or directory
+grep: Data: No such file or directory
+BullseyeCoverageError.txtContactsgrep: Contacts: Is a directory
+Cookiesgrep: Cookies: Is a directory
+Desktopgrep: Desktop: Is a directory
+Documentsgrep: Documents: Is a directory
+Downloadsgrep: Downloads: Is a directory
+Favoritesgrep: Favorites: Is a directory
+IntelGraphicsProfilesgrep: IntelGraphicsProfiles: Is a directory
+Linksgrep: Links: Is a directory
+Local Settingsgrep: Settings: No such file or directory
+grep: Local: No such file or directory
+grep: Settings: No such file or directory
+MicrosoftEdgeBackupsgrep: MicrosoftEdgeBackups: Is a directory
+Musicgrep: Music: Is a directory
+My Documentsgrep: Documents: Is a directory
+grep: My: No such file or directory
+grep: Documents: Is a directory
+NTUSER.DATgrep: NTUSER.DAT: Device or resource busy
+NTUSER.DAT{8f52c544-864a-11eb-90cc-8427d912b9c6}.TxR.0.regtrans-msNTUSER.DAT{8f52c544-864a-11eb-90cc-8427d912b9c6}.TxR.1.regtrans-msNTUSER.DAT{8f52c544-864a-11eb-90cc-8427d912b9c6}.TxR.2.regtrans-msNTUSER.DAT{8f52c544-864a-11eb-90cc-8427d912b9c6}.TxR.blfNTUSER.DAT{8f52c545-864a-11eb-90cc-8427d912b9c6}.TM.blfNTUSER.DAT{8f52c545-864a-11eb-90cc-8427d912b9c6}.TMContainer00000000000000000001.regtrans-msNTUSER.DAT{8f52c545-864a-11eb-90cc-8427d912b9c6}.TMContainer00000000000000000002.regtrans-msNetHoodgrep: NetHood: Is a directory
+OneDrivegrep: OneDrive: Is a directory
+PrintHoodgrep: PrintHood: Is a directory
+Recentgrep: Recent: Is a directory
+Saved Gamesgrep: Games: No such file or directory
+grep: Saved: No such file or directory
+grep: Games: No such file or directory
+Searchesgrep: Searches: Is a directory
+SendTogrep: SendTo: Is a directory
+Start Menugrep: Menu: No such file or directory
+grep: Start: No such file or directory
+grep: Menu: No such file or directory
+Templatesgrep: Templates: Is a directory
+Videosgrep: Videos: Is a directory
+ayeha.shayesha1grep: ayesha1: Is a directory
+ayeshugrep: ayeshu: Is a directory
+eclipsegrep: eclipse: Is a directory
+eclipse-workspacegrep: eclipse-workspace: Is a directory
+exmple.javagitgrep: git: Is a directory
+git_demogrep: git_demo: Is a directory
+javaplinuxgrep: linux: Is a directory
+my-appgrep: my-app: Is a directory
+ntuser.dat.LOG1grep: ntuser.dat.LOG1: Device or resource busy
+ntuser.dat.LOG2grep: ntuser.dat.LOG2: Device or resource busy
+ntuser.inipgm2.shsaggrep: sag: Is a directory
+unix-learninggrep: unix-learning: Is a directory
+ushagrep: usha: Is a directory
+usha.shusha5b2grep: usha5b2: Is a directory
+work.sh
+program4:
+if grep "unix" my files >/dev/null
+then
+        echo unix occurs in myfile
+else
+        echo no!
+        echo unix does not occur in myfiles
+fi
+output:
+grep: my: No such file or directory
+grep: files: No such file or directory
+no!
+unix does not occur in myfiles
+program5:
+if grep "unix" myfile >/dev/null
+then
+        echo "unix occurs in file"
+elif grep "dos" myfile >/dev/null
+then
+        echo "unix does not occur, but dos does"
+else
+        echo "nobody is there"
+fi
+output:
+grep: myfile: No such file or directory
+grep: myfile: No such file or directory
+nobody is there
+
+
+
+
