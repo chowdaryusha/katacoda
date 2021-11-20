@@ -1,0 +1,115 @@
+ vi insert mode
+\2 files to edit
+$ ls-l
+bash: ls-l: command not found
+$ ls -l
+total 4
+-rw-r--r-- 1 root root 45 Nov 18 05:32 insert
+$ lw -l
+bash: lw: command not found
+$ lw -l
+bash: lw: command not found
+$ ls -d
+.
+$ mkdir mom
+$ echo usha
+usha
+$ ls -l
+total 8
+-rw-r--r-- 1 root root   45 Nov 18 05:32 insert
+drwxr-xr-x 2 root root 4096 Nov 18 05:37 mom
+$ ls -d
+.
+$ mkdir mom
+mkdir: cannot create directory ‘mom’: File exists
+$ cd mom
+$ ls -l
+total 0
+$ ls -d
+.
+$ who am i
+$ who i am
+$ ls -g
+total 0
+$ echo the name is sudha
+the name is sudha
+$ echo she is my mom
+she is my mom
+$ echo i am her daughter
+i am her daughter
+$ ls -l
+total 0
+$ vi inser mode
+2 files to edit
+$ ls -l
+total 4
+-rw-r--r-- 1 root root 20 Nov 18 05:42 inser
+$ ls -d
+.
+$ vi inser mode
+2 files to edit
+$ ls -d
+.
+$ ls -l
+total 4
+-rw-r--r-- 1 root root 45 Nov 18 05:43 inser
+$ mkdir mummy
+$ cd mummy
+$ echo i am her daughte
+i am her daughte
+$ 
+$ ls -d
+.
+$ chown usha :usha apple.txt
+chown: invalid user: ‘usha’
+$ chown mummy :mummy apple.txt
+chown: invalid user: ‘mummy’
+$ chown file:file apple.txt
+chown: invalid user: ‘file:file’
+$ chown -r usha:usha haritha
+chown: invalid option -- 'r'
+Try 'chown --help' for more information.
+$ chown -R usha : usha haritha
+chown: invalid user: ‘usha’
+$ pwd
+/root/mom/mummy
+$ chown -R mom : mom haritha
+chown: invalid user: ‘mom’
+$ switch user
+bash: switch: command not found
+$ user usha
+bash: user: command not found
+$ su
+$ su usha
+su: user usha does not exist
+$ su jyothiprakash
+su: user jyothiprakash does not exist
+$ su
+$ usha
+bash: usha: command not found
+$ useradd user
+$ useradd usha
+$ su
+$ chowm -R usha:usha haritha
+bash: chowm: command not found
+$ useradd usha
+useradd: user 'usha' already exists
+$ chown -R usha : usha haritha
+chown: cannot access ':': No such file or directory
+chown: cannot access 'usha': No such file or directory
+chown: cannot access 'haritha': No such file or directory
+$ mkdir usha
+$ cd usha
+$ chown -R usha : usha haritha
+chown: cannot access ':': No such file or directory
+chown: cannot access 'usha': No such file or directory
+chown: cannot access 'haritha': No such file or directory
+$ pwd
+/root/mom/mummy/usha
+$ cd .
+$ cd usha
+bash: cd: usha: No such file or directory
+$ pwd
+/root/mom/mummy/usha
+$ cwd
+bash: cwd: command not found
