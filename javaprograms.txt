@@ -1,0 +1,17 @@
+class Main 
+{
+private String name;
+Main()
+{
+System.out.println("my name is usha:");
+name = "Praveena";
+}
+public static void main(String[] args)
+{
+Main obj = new Main();
+System.out.println("the name is " + obj.name);
+}
+}
+output:
+my name is usha:
+the name is Praveena
